@@ -1,0 +1,3 @@
+baseURL = 'http://latnx.github.io'
+languageCode = 'zh-cn'
+title = 'My New Hugo Site'
