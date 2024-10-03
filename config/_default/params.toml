@@ -14,7 +14,7 @@ enableCodeCopy = true
 
 replyByEmail = true
 
-mainSections = ["docs"]
+mainSections = ["posts"]
 # robots = ""
 
 disableImageOptimization = false
@@ -51,13 +51,13 @@ smartTOCHideUnfocusedChildren = false
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = true
   # showAuthorBottom = false
-  showHero = true
+  showHero = false
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
@@ -86,8 +86,8 @@ smartTOCHideUnfocusedChildren = false
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
   showSummary = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = true
   showCards = true
   orderByWeight = true
@@ -104,8 +104,8 @@ smartTOCHideUnfocusedChildren = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = true
   cardView = false
 
@@ -113,21 +113,21 @@ smartTOCHideUnfocusedChildren = false
   showHero = true
   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = true
   groupByYear = false
   cardView = true
   cardViewScreenWidth = false
   
 [firebase]
-  #apiKey = "AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY"
-  #authDomain = "blowfish-21fff.firebaseapp.com"
-  #projectId = "blowfish-21fff"
-  #storageBucket = "blowfish-21fff.appspot.com"
-  #messagingSenderId = "60108104191"
-  #appId = "1:60108104191:web:039842ebe1370698b487ca"
-  #measurementId = "G-PEDMYR1V0K"
+  apiKey = "AIzaSyCoJa71l8Xzed_hXXx6qkZ8vyNH1vn51Sg"
+  authDomain = "blog-blowfish-33ec9.firebaseapp.com"
+  projectId = "blog-blowfish-33ec9"
+  storageBucket = "blog-blowfish-33ec9.appspot.com"
+  messagingSenderId = "1025932942496"
+  appId = "1:1025932942496:web:0f87a1c1ce4c8e48837dc5"
+  measurementId = "G-P5YEP891PM"
 
 [fathomAnalytics]
   # site = "ABC12345"
