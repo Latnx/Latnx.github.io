@@ -11,19 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Posts"
   pageRef = "posts"
   weight = 10
-
-[[main]]
-  name = "文档"
-  pageRef = "docs"
-  weight = 10
-
-[[main]]
-  name = "简码"
-  pageRef = "docs/shortcodes"
-  weight = 15
 
 [[main]]
   name = "示例"
@@ -48,8 +38,8 @@
   weight = 40
 
 [[main]]
-  name = "用户列表"
-  pageRef = "users"
+  name = "Tools"
+  pageRef = "Tools"
   weight = 90
 
 [[main]]
