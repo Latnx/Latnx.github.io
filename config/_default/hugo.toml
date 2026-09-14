@@ -5,14 +5,11 @@
 theme = "blowfish"
 baseURL = "https://latnx.github.io/"
 defaultContentLanguage = "zh-cn"
-disableLanguages = [] #to allow translation work requiring shipping to production
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-[pagination]
-  pagerSize = 10
-summaryLength = 10
+summaryLength = 0
 hasCJKLanguage = true
 
 buildDrafts = false
@@ -21,6 +18,9 @@ buildFuture = false
 enableEmoji = true
 
 # googleAnalytics = ""
+
+[pagination]
+  pagerSize = 100
 
 [imaging]
   anchor = 'Center'
@@ -32,7 +32,7 @@ enableEmoji = true
   series = "series"
 
 [sitemap]
-  changefreq = 'always'
+  changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
