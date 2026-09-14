@@ -20,7 +20,7 @@ Do not edit generated pages directly.
 
 ## Preview
 
-Install Node.js 22 or later and Hugo Extended 0.128.0, then run:
+Install Node.js 22 or later and Hugo Extended 0.166.0, then run:
 
 ```sh
 git submodule update --init --depth 1
