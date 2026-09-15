@@ -2,9 +2,13 @@
 title: User
 url: /docs/notes/d-4828e60247c1636f/n-e2fc2976edd0ddfb/
 draft: false
+featureimage: img/note-covers/systems.webp
+images:
+  - img/note-covers/systems.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

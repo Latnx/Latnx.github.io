@@ -2,9 +2,13 @@
 title: 018 洪水填充
 url: /docs/notes/d-e3f7616b19908d30/n-9b0965c8adda57df/
 draft: false
+featureimage: img/note-covers/algorithms-a.webp
+images:
+  - img/note-covers/algorithms-a.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

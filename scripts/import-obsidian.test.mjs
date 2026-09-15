@@ -2,10 +2,11 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
-import { convertNote, createVault, importVault, noteRoute } from './import-obsidian.mjs';
+import { convertNote, coverForNote, createVault, importVault, noteCoverPaths, noteRoute } from './import-obsidian.mjs';
 
 async function fixture(t, files) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'obsidian-import-test-'));
@@ -117,6 +118,9 @@ test('import is deterministic, preserves dates, copies every attachment and dele
   const dated = await fs.readFile(path.join(root, first.pages.find((item) => item.source === 'folder/note.md').output), 'utf8');
   const plain = await fs.readFile(path.join(root, first.pages.find((item) => item.source === 'plain.md').output), 'utf8');
   assert.match(dated, /date: 2026-04-01T13:53:00/);
+  assert.match(dated, /featureimage: img\/note-covers\//);
+  assert.match(dated, /images:\n  - img\/note-covers\//);
+  assert.match(dated, /showHero: true/);
   assert.doesNotMatch(plain, /^date:/m);
   assert.deepEqual(await fs.readFile(path.join(root, first.attachments[0].output)), Buffer.from([0, 1, 2, 255]));
   assert.match(await fs.readFile(path.join(root, 'content/docs/notes/attachments.md'), 'utf8'), /unused\.docx/);
@@ -127,4 +131,56 @@ test('import is deterministic, preserves dates, copies every attachment and dele
   assert.equal(third.counts.notes, 1);
   await assert.rejects(fs.stat(path.join(root, first.pages.find((item) => item.source === 'plain.md').output)), { code: 'ENOENT' });
   assert.equal(await fs.readFile(manual, 'utf8'), 'Keep manual content.');
+});
+
+test('assigns stable topic covers and preserves explicit cover and hero choices', async (t) => {
+  const { root } = await fixture(t, {
+    'LeetCode/001 example.md': '# Algorithm\n',
+    '面试/数据库/Redis/cache.md': '# Cache\n',
+    '面试/Java/runtime.md': '# Runtime\n',
+    'custom.md': '---\nfeatureImage: https://example.com/custom.png\nimages: https://example.com/social.png\nshowhero: false\n---\nCustom.\n',
+    'invalid.md': '---\nfeatureimage: /obsidian/missing.png\n---\nFallback.\n',
+    'local.md': '---\nfeatureimage: assets/img/custom.webp\n---\nLocal.\n',
+  });
+  await fs.mkdir(path.join(root, 'assets/img'), { recursive: true });
+  await fs.writeFile(path.join(root, 'assets/img/custom.webp'), 'image');
+  const first = await importVault(root);
+  const bySource = new Map(first.pages.map((page) => [page.source, page]));
+  assert.match(bySource.get('LeetCode/001 example.md').featureimage, /^img\/note-covers\/algorithms-[ab]\.webp$/);
+  assert.match(bySource.get('面试/数据库/Redis/cache.md').featureimage, /^img\/note-covers\/data-[ab]\.webp$/);
+  assert.match(bySource.get('面试/Java/runtime.md').featureimage, /^img\/note-covers\/programming-[ab]\.webp$/);
+  assert.equal(bySource.get('custom.md').featureimage, 'https://example.com/custom.png');
+  assert.equal(bySource.get('invalid.md').featureimage, 'img/note-covers/knowledge.webp');
+  assert.equal(bySource.get('local.md').featureimage, 'img/custom.webp');
+  assert.equal(coverForNote('LeetCode/001 example.md'), bySource.get('LeetCode/001 example.md').featureimage);
+  assert.match(first.groups.find((group) => group.source === 'LeetCode').featureimage, /^img\/note-covers\/algorithms-[ab]\.webp$/);
+
+  const custom = await fs.readFile(path.join(root, bySource.get('custom.md').output), 'utf8');
+  assert.match(custom, /featureimage: https:\/\/example\.com\/custom\.png/);
+  assert.match(custom, /images:\n  - https:\/\/example\.com\/social\.png/);
+  assert.match(custom, /showHero: false/);
+  assert.doesNotMatch(custom, /^featureImage:|^showhero:/m);
+
+  await fs.writeFile(path.join(root, 'Obsidian/LeetCode/002 added later.md'), '# New\n');
+  const second = await importVault(root);
+  assert.equal(second.pages.find((page) => page.source === 'LeetCode/001 example.md').featureimage, bySource.get('LeetCode/001 example.md').featureimage);
+});
+
+test('maps every topic family to its intended cover pool', () => {
+  const cases = [
+    ['LeetCode/017 并查集.md', /algorithms-[ab]\.webp$/],
+    ['项目/后端项目/重试.md', /backend\.webp$/],
+    ['面试/数据库/MySQL/3 索引.md', /data-[ab]\.webp$/],
+    ['Untitled.md', /knowledge\.webp$/],
+    ['面试/网络/应用层/1 HTTP.md', /network-[ab]\.webp$/],
+    ['面试/golang/原理/GC.md', /programming-[ab]\.webp$/],
+    ['论文/相关工作.md', /research\.webp$/],
+    ['Linux/常用命令.md', /systems\.webp$/],
+  ];
+  for (const [source, expected] of cases) assert.match(coverForNote(source), expected);
+});
+
+test('every configured note cover asset exists', async () => {
+  const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+  await Promise.all(noteCoverPaths.map((cover) => fs.access(path.join(root, 'assets', cover))));
 });

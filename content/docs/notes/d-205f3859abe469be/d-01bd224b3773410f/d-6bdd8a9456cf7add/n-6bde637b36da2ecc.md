@@ -2,9 +2,13 @@
 title: 5 锁
 url: /docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-6bde637b36da2ecc/
 draft: false
+featureimage: img/note-covers/data-b.webp
+images:
+  - img/note-covers/data-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

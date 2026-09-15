@@ -2,9 +2,13 @@
 title: 架构
 url: /docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-f1d1d318ae7cef96/
 draft: false
+featureimage: img/note-covers/backend.webp
+images:
+  - img/note-covers/backend.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

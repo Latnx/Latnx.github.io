@@ -2,9 +2,13 @@
 title: 019 建图 拓扑排序
 url: /docs/notes/d-e3f7616b19908d30/n-e9fcad8cad1f7070/
 draft: false
+featureimage: img/note-covers/algorithms-a.webp
+images:
+  - img/note-covers/algorithms-a.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

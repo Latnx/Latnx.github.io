@@ -2,9 +2,13 @@
 title: 消息队列
 url: /docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-ca5ebd88c91eca69/
 draft: false
+featureimage: img/note-covers/backend.webp
+images:
+  - img/note-covers/backend.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

@@ -2,9 +2,13 @@
 title: 序列化
 url: /docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-fcf5ed6ca338c484/
 draft: false
+featureimage: img/note-covers/programming-a.webp
+images:
+  - img/note-covers/programming-a.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

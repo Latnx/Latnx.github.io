@@ -2,9 +2,13 @@
 title: shell
 url: /docs/notes/d-4828e60247c1636f/n-c465aea4ec9e7cf9/
 draft: false
+featureimage: img/note-covers/systems.webp
+images:
+  - img/note-covers/systems.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

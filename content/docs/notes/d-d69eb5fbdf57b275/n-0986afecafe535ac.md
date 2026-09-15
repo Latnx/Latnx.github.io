@@ -2,9 +2,13 @@
 title: Redis
 url: /docs/notes/d-d69eb5fbdf57b275/n-0986afecafe535ac/
 draft: false
+featureimage: img/note-covers/data-a.webp
+images:
+  - img/note-covers/data-a.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

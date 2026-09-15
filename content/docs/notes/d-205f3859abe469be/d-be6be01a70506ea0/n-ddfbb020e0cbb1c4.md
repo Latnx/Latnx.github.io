@@ -2,9 +2,13 @@
 title: 硬件
 url: /docs/notes/d-205f3859abe469be/d-be6be01a70506ea0/n-ddfbb020e0cbb1c4/
 draft: false
+featureimage: img/note-covers/systems.webp
+images:
+  - img/note-covers/systems.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

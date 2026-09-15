@@ -2,9 +2,13 @@
 title: 017 并查集
 url: /docs/notes/d-e3f7616b19908d30/n-cdf458fdcd91b6dd/
 draft: false
+featureimage: img/note-covers/algorithms-b.webp
+images:
+  - img/note-covers/algorithms-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

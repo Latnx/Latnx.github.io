@@ -15,6 +15,16 @@ const imageExtensions = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg
 const headingRepairs = new Map([
   ['面试/数据库/Redis/02 数据类型.md#4. 哈希表 Dict', '4. 哈希表 Hashtable'],
 ]);
+const noteCoverFamilies = Object.freeze({
+  algorithms: ['img/note-covers/algorithms-a.webp', 'img/note-covers/algorithms-b.webp'],
+  backend: ['img/note-covers/backend.webp'],
+  data: ['img/note-covers/data-a.webp', 'img/note-covers/data-b.webp'],
+  knowledge: ['img/note-covers/knowledge.webp'],
+  network: ['img/note-covers/network-a.webp', 'img/note-covers/network-b.webp'],
+  programming: ['img/note-covers/programming-a.webp', 'img/note-covers/programming-b.webp'],
+  research: ['img/note-covers/research.webp'],
+  systems: ['img/note-covers/systems.webp'],
+});
 
 const hash = (value) => createHash('sha256').update(value).digest('hex').slice(0, 16);
 const key = (value) => value.normalize('NFC').toLowerCase();
@@ -22,6 +32,64 @@ const encodeSegment = (value) => encodeURIComponent(value).replace(/[!'()*]/g, (
 const escapeHtml = (value) => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const escapeLabel = (value) => value.replace(/[\\[\]]/g, '\\$&').replaceAll('\n', ' ');
 const normalizeHeading = (value) => key(value.trim().replace(/\s+/g, ' '));
+
+function coverFamily(relative) {
+  const scope = `${key(relative).replaceAll('\\', '/').replace(/\.md$/, '')}/`;
+  if (scope.startsWith('leetcode/') || scope.startsWith('面试题/数据结构/')) return 'algorithms';
+  if (scope.startsWith('面试/数据库/') || /^面试题\/(?:mysql|redis)\//.test(scope)) return 'data';
+  if (scope.startsWith('面试/网络/') || scope.startsWith('面试题/计算机网络/') || scope.startsWith('无线电/')) return 'network';
+  if (scope.startsWith('面试/ai/') || scope.startsWith('论文/') || scope.startsWith('开题')) return 'research';
+  if (scope.startsWith('项目/') || scope.startsWith('实习/') || scope.startsWith('面试/场景题/') || scope.startsWith('面试/消息队列/') || scope.startsWith('面试题/kafka/') || scope.startsWith('swagger/')) return 'backend';
+  if (scope.startsWith('linux/') || scope.startsWith('面试/os/') || scope.startsWith('面试/docker/') || scope.startsWith('docker/') || scope.startsWith('git/') || scope.startsWith('vscode ')) return 'systems';
+  if (scope.startsWith('面试/java/') || scope.startsWith('面试/golang/') || scope.startsWith('面试题/go/')) return 'programming';
+  return 'knowledge';
+}
+
+export const noteCoverPaths = Object.freeze(Object.values(noteCoverFamilies).flat());
+
+export function coverForNote(relative) {
+  const covers = noteCoverFamilies[coverFamily(relative)];
+  const variant = Number.parseInt(hash(relative).slice(0, 8), 16) % covers.length;
+  return covers[variant];
+}
+
+function metadataValue(metadata, name) {
+  if (Object.hasOwn(metadata, name)) return metadata[name];
+  return Object.entries(metadata).find(([candidate]) => key(candidate) === key(name))?.[1];
+}
+
+function withoutMetadataKeys(metadata, names) {
+  const omitted = new Set(names.map(key));
+  return Object.fromEntries(Object.entries(metadata).filter(([name]) => !omitted.has(key(name))));
+}
+
+function socialImages(metadata, featureimage) {
+  const configured = metadataValue(metadata, 'images');
+  if (Array.isArray(configured)) {
+    const images = configured.filter((image) => typeof image === 'string' && image.trim()).map((image) => image.trim());
+    if (images.length) return images;
+  }
+  if (typeof configured === 'string' && configured.trim()) return [configured.trim()];
+  return [featureimage];
+}
+
+async function featureImageForNote(root, note) {
+  const configured = metadataValue(note.metadata, 'featureimage');
+  if (typeof configured !== 'string' || !configured.trim()) return coverForNote(note.relative);
+  const value = configured.trim();
+  if (/^https?:\/\//i.test(value)) return value;
+  const resource = value.replaceAll('\\', '/').replace(/^\/+/, '').replace(/^assets\//i, '');
+  if (!imageExtensions.has(path.posix.extname(resource).toLowerCase())) return coverForNote(note.relative);
+  const assetsRoot = path.resolve(root, 'assets');
+  const candidate = path.resolve(assetsRoot, resource);
+  if (!candidate.startsWith(`${assetsRoot}${path.sep}`)) return coverForNote(note.relative);
+  try {
+    if ((await fs.stat(candidate)).isFile()) return resource;
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
+  return coverForNote(note.relative);
+}
 
 function visit(node, callback) {
   callback(node);
@@ -303,14 +371,19 @@ export async function importVault(root = defaultRoot) {
     }
     groups.get(directory).push(note);
     const title = note.metadata.title || path.posix.basename(note.relative, path.posix.extname(note.relative));
+    const featureimage = await featureImageForNote(root, note);
+    const showHero = metadataValue(note.metadata, 'showHero');
     const metadata = {
-      ...note.metadata,
+      ...withoutMetadataKeys(note.metadata, ['featureimage', 'images', 'showHero']),
       title,
       url: note.url,
       draft: false,
+      featureimage,
+      images: socialImages(note.metadata, featureimage),
       showDate: Boolean(note.metadata.date),
       showDateUpdated: false,
       showAuthor: false,
+      showHero: typeof showHero === 'boolean' ? showHero : true,
       showReadingTime: false,
       showWordCount: false,
       showTableOfContents: true,
@@ -319,16 +392,17 @@ export async function importVault(root = defaultRoot) {
     };
     const output = contentPathForUrl(note.url);
     outputs.set(output, frontmatter(metadata) + convertNote(vault, note));
-    pages.push({ source: note.relative, output, url: note.url, title, headings: note.headings.map(({ label, id }) => ({ label, id })) });
+    pages.push({ source: note.relative, output, url: note.url, title, featureimage, headings: note.headings.map(({ label, id }) => ({ label, id })) });
   }
   const groupPages = [];
   for (const directory of groups.keys()) {
     const route = directoryRoute(directory);
     const url = `/docs/notes/${route ? `${route}/` : ''}`;
     const title = directory ? path.posix.basename(directory) : '笔记';
+    const featureimage = coverForNote(directory);
     const output = `content/docs/notes/${route ? `${route}/` : ''}_index.md`;
-    outputs.set(output, frontmatter({ title, url, showDate: false, showAuthor: false, showTableOfContents: false, ...(directory ? {} : { weight: 1, cascade: { showDate: false, showDateUpdated: false, showAuthor: false, showViews: false, showLikes: false, showEdit: false } }) }));
-    groupPages.push({ source: directory, output, url, title });
+    outputs.set(output, frontmatter({ title, url, featureimage, images: [featureimage], showDate: false, showAuthor: false, showTableOfContents: false, ...(directory ? {} : { weight: 1, cascade: { showDate: false, showDateUpdated: false, showAuthor: false, showViews: false, showLikes: false, showEdit: false } }) }));
+    groupPages.push({ source: directory, output, url, title, featureimage });
   }
   const attachmentEntries = [];
   for (const [relative, url] of vault.assets) {
@@ -337,7 +411,8 @@ export async function importVault(root = defaultRoot) {
     outputs.set(output, data);
     attachmentEntries.push({ source: relative, output, url, referenced: vault.usedAssets.has(relative), sha256: createHash('sha256').update(data).digest('hex') });
   }
-  outputs.set('content/docs/notes/attachments.md', frontmatter({ title: '附件', url: '/docs/notes/attachments/', showDate: false, showAuthor: false, showTableOfContents: false }) + attachmentEntries.map((item) => `- [${escapeLabel(item.source)}](${item.url})`).join('\n') + '\n');
+  const attachmentFeatureImage = coverForNote('附件');
+  outputs.set('content/docs/notes/attachments.md', frontmatter({ title: '附件', url: '/docs/notes/attachments/', featureimage: attachmentFeatureImage, images: [attachmentFeatureImage], showDate: false, showAuthor: false, showHero: false, showTableOfContents: false }) + attachmentEntries.map((item) => `- [${escapeLabel(item.source)}](${item.url})`).join('\n') + '\n');
   const manifest = {
     version: 1,
     generatedBy: 'scripts/import-obsidian.mjs',

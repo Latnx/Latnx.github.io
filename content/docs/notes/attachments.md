@@ -1,8 +1,12 @@
 ---
 title: 附件
 url: /docs/notes/attachments/
+featureimage: img/note-covers/knowledge.webp
+images:
+  - img/note-covers/knowledge.webp
 showDate: false
 showAuthor: false
+showHero: false
 showTableOfContents: false
 ---
 

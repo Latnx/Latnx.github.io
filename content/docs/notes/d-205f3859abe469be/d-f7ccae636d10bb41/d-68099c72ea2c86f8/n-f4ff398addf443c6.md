@@ -2,9 +2,13 @@
 title: GC
 url: /docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-f4ff398addf443c6/
 draft: false
+featureimage: img/note-covers/programming-a.webp
+images:
+  - img/note-covers/programming-a.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

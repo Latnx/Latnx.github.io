@@ -2,9 +2,13 @@
 title: 1. 内存区域
 url: /docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-bb6a8ee5de4216dc/
 draft: false
+featureimage: img/note-covers/programming-b.webp
+images:
+  - img/note-covers/programming-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

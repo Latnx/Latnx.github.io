@@ -15,6 +15,7 @@
       "output": "content/docs/notes/n-7e3ad9b50cf53c65.md",
       "url": "/docs/notes/n-7e3ad9b50cf53c65/",
       "title": "docker",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": []
     },
     {
@@ -22,6 +23,7 @@
       "output": "content/docs/notes/n-d423862140bd84cd.md",
       "url": "/docs/notes/n-d423862140bd84cd/",
       "title": "Git",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": []
     },
     {
@@ -29,6 +31,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-5ed97d0c17a39aea.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-5ed97d0c17a39aea/",
       "title": "012 前缀和与差分",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": [
         {
           "label": "一维前缀和与一维差分",
@@ -45,6 +48,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-8491cf98752935fa.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-8491cf98752935fa/",
       "title": "013 滑动窗口",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -52,6 +56,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-e857dd2b99409b32.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-e857dd2b99409b32/",
       "title": "014 二分答案法",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -59,6 +64,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-80a8cdefbe37d4ce.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-80a8cdefbe37d4ce/",
       "title": "015 单调栈",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -66,6 +72,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-41dc3248a3b7f977.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-41dc3248a3b7f977/",
       "title": "016 单调队列",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -73,6 +80,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-cdf458fdcd91b6dd.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-cdf458fdcd91b6dd/",
       "title": "017 并查集",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -80,6 +88,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-9b0965c8adda57df.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-9b0965c8adda57df/",
       "title": "018 洪水填充",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -87,6 +96,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-e9fcad8cad1f7070.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-e9fcad8cad1f7070/",
       "title": "019 建图 拓扑排序",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -94,6 +104,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-1e4b6269dee7ec69.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-1e4b6269dee7ec69/",
       "title": "020 最小生成树",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -101,6 +112,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-3eac7d23856318f2.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-3eac7d23856318f2/",
       "title": "021 BFS",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -108,6 +120,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-36f6c95aa6236000.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-36f6c95aa6236000/",
       "title": "022 Dijkstra",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -115,6 +128,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-ca62183b6b41fe58.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-ca62183b6b41fe58/",
       "title": "023 动态规划",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -122,6 +136,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-954ae5c860a521a1.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-954ae5c860a521a1/",
       "title": "1 二分查找",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": [
         {
           "label": "找下界：满足 x ≥ target 的第一个元素",
@@ -134,6 +149,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-ab0e8b2c1887a318.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-ab0e8b2c1887a318/",
       "title": "10 根据数量猜解法",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -141,6 +157,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-b9665981749c9436.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-b9665981749c9436/",
       "title": "11 字典树",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -148,6 +165,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-2683c56f9ef2a8db.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-2683c56f9ef2a8db/",
       "title": "2 输入输出",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -155,6 +173,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-82a554dd600dd7b9.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-82a554dd600dd7b9/",
       "title": "3-0 排序函数",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -162,6 +181,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-c66dfe556ffe17ea.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-c66dfe556ffe17ea/",
       "title": "3-1 快排",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -169,6 +189,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-b5a41178d94dac43.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-b5a41178d94dac43/",
       "title": "3-2 归并",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -176,6 +197,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-90c4b0254739dae3.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-90c4b0254739dae3/",
       "title": "4 堆排",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -183,6 +205,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-68322f38eb7e7056.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-68322f38eb7e7056/",
       "title": "5 位运算",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": []
     },
     {
@@ -190,6 +213,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-cec737291448f34c.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-cec737291448f34c/",
       "title": "6 设计数据结构",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -197,6 +221,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-6c0a68c1c64c357d.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-6c0a68c1c64c357d/",
       "title": "7 二叉树",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": [
         {
           "label": "层序遍历",
@@ -209,6 +234,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-4004bf49b384be56.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-4004bf49b384be56/",
       "title": "8 DFS 回溯",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -216,6 +242,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-25ff46551aa2cb56.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-25ff46551aa2cb56/",
       "title": "9 最大公约数",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -223,6 +250,7 @@
       "output": "content/docs/notes/d-e3f7616b19908d30/n-99680b6620ef51d8.md",
       "url": "/docs/notes/d-e3f7616b19908d30/n-99680b6620ef51d8/",
       "title": "建树",
+      "featureimage": "img/note-covers/algorithms-a.webp",
       "headings": [
         {
           "label": "给边，但并不知道谁是谁是父节点",
@@ -239,6 +267,7 @@
       "output": "content/docs/notes/d-4828e60247c1636f/n-c465aea4ec9e7cf9.md",
       "url": "/docs/notes/d-4828e60247c1636f/n-c465aea4ec9e7cf9/",
       "title": "shell",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": [
         {
           "label": "重定向",
@@ -255,6 +284,7 @@
       "output": "content/docs/notes/d-4828e60247c1636f/n-e2fc2976edd0ddfb.md",
       "url": "/docs/notes/d-4828e60247c1636f/n-e2fc2976edd0ddfb/",
       "title": "User",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": [
         {
           "label": "useradd",
@@ -275,6 +305,7 @@
       "output": "content/docs/notes/n-f66817731fdfc7d8.md",
       "url": "/docs/notes/n-f66817731fdfc7d8/",
       "title": "Swagger",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -282,6 +313,7 @@
       "output": "content/docs/notes/n-2dccf8122d1b825a.md",
       "url": "/docs/notes/n-2dccf8122d1b825a/",
       "title": "Untitled",
+      "featureimage": "img/note-covers/knowledge.webp",
       "headings": []
     },
     {
@@ -289,6 +321,7 @@
       "output": "content/docs/notes/n-05c1663a5270d32a.md",
       "url": "/docs/notes/n-05c1663a5270d32a/",
       "title": "VSCode 免密登录",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": [
         {
           "label": "本地生成密钥",
@@ -309,6 +342,7 @@
       "output": "content/docs/notes/d-d64ff9df5332ca3a/n-8d5196b783d60f01.md",
       "url": "/docs/notes/d-d64ff9df5332ca3a/n-8d5196b783d60f01/",
       "title": "AntiOnlineServer",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "规则引擎",
@@ -337,6 +371,7 @@
       "output": "content/docs/notes/d-d64ff9df5332ca3a/n-35bfa97d32e4b211.md",
       "url": "/docs/notes/d-d64ff9df5332ca3a/n-35bfa97d32e4b211/",
       "title": "百度场景",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -344,6 +379,7 @@
       "output": "content/docs/notes/d-d64ff9df5332ca3a/n-8a7f0a67a104b931.md",
       "url": "/docs/notes/d-d64ff9df5332ca3a/n-8a7f0a67a104b931/",
       "title": "百度问题",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "架构与数据流（Q1-Q3）",
@@ -484,6 +520,7 @@
       "output": "content/docs/notes/n-7e2b2b70f879fc62.md",
       "url": "/docs/notes/n-7e2b2b70f879fc62/",
       "title": "开题大纲",
+      "featureimage": "img/note-covers/research.webp",
       "headings": [
         {
           "label": "一、总体目标、问题与产出",
@@ -568,6 +605,7 @@
       "output": "content/docs/notes/n-e4170616af50ab22.md",
       "url": "/docs/notes/n-e4170616af50ab22/",
       "title": "开题大纲2.2",
+      "featureimage": "img/note-covers/research.webp",
       "headings": [
         {
           "label": "基于智能体的DNS漏洞攻击流量识别技术研究",
@@ -644,6 +682,7 @@
       "output": "content/docs/notes/n-6256274a7b601bdc.md",
       "url": "/docs/notes/n-6256274a7b601bdc/",
       "title": "无线电",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": []
     },
     {
@@ -651,6 +690,7 @@
       "output": "content/docs/notes/d-916a0b17530c915b/n-c6427c6706988adf.md",
       "url": "/docs/notes/d-916a0b17530c915b/n-c6427c6706988adf/",
       "title": "相关工作",
+      "featureimage": "img/note-covers/research.webp",
       "headings": [
         {
           "label": "传统漏洞分析方法",
@@ -675,6 +715,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-43b2d4c787235591/n-5050f1441605ee6c.md",
       "url": "/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-43b2d4c787235591/n-5050f1441605ee6c/",
       "title": "4 智能体经典架构范式",
+      "featureimage": "img/note-covers/research.webp",
       "headings": []
     },
     {
@@ -682,6 +723,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-082c52ecdd817ef3/n-f63dc7b80e20f535.md",
       "url": "/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-082c52ecdd817ef3/n-f63dc7b80e20f535/",
       "title": "Overview",
+      "featureimage": "img/note-covers/research.webp",
       "headings": []
     },
     {
@@ -689,6 +731,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-0c68cd0378be49e1/n-0b2bfbac69d77923.md",
       "url": "/docs/notes/d-205f3859abe469be/d-0c68cd0378be49e1/n-0b2bfbac69d77923/",
       "title": "DokcerFile",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": [
         {
           "label": "docker compose",
@@ -701,6 +744,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-41c9868b0abc1352.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-41c9868b0abc1352/",
       "title": "Chan",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -708,6 +752,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-c9549f0a67d3d027.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-c9549f0a67d3d027/",
       "title": "Context",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "context.WithCancel",
@@ -720,6 +765,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-d1f9c5c78e6447aa.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-d1f9c5c78e6447aa/",
       "title": "Select",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -727,6 +773,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-2f406ea8af75b16b.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-2f406ea8af75b16b/",
       "title": "Sync",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "1️⃣ Mutex（互斥锁）",
@@ -795,6 +842,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-fc31f98d11ed8000.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/n-fc31f98d11ed8000/",
       "title": "协程池",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -802,6 +850,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/d-450951ee8f6c9184/n-361dfee4929324e6.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/d-450951ee8f6c9184/n-361dfee4929324e6/",
       "title": "Untitled",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -809,6 +858,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-c44123ebaf4dac00.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-c44123ebaf4dac00/",
       "title": "context",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -816,6 +866,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-74992bd6fb4778a1.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-74992bd6fb4778a1/",
       "title": "Defer",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -823,6 +874,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-f4ff398addf443c6.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-f4ff398addf443c6/",
       "title": "GC",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "V1.3及之前：标记清除算法​",
@@ -843,6 +895,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-41bc74a3678881d4.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-41bc74a3678881d4/",
       "title": "GMP",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -850,6 +903,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-833cda42db400b52.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-833cda42db400b52/",
       "title": "Map",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "哈希冲突",
@@ -874,6 +928,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-6cc7e0428177936b.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-6cc7e0428177936b/",
       "title": "Slice",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -881,6 +936,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-1014e48fb22ff92b.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-1014e48fb22ff92b/",
       "title": "String",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "string与[]byte的转化原理",
@@ -897,6 +953,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-091b4216bef74b3a.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/n-091b4216bef74b3a/",
       "title": "Sync.Map",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "双向数据流转机制",
@@ -913,6 +970,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/n-b79d65cb92567a70.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/n-b79d65cb92567a70/",
       "title": "反射",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "用途",
@@ -945,6 +1003,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/n-f153110138845055.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/n-f153110138845055/",
       "title": "泛型",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "类型也可以使用泛型",
@@ -957,6 +1016,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-89f1ecd5b831df5f.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-89f1ecd5b831df5f/",
       "title": "IO",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "BIO、NIO、AIO区别是什么？",
@@ -969,6 +1029,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-bb6a8ee5de4216dc.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-bb6a8ee5de4216dc/",
       "title": "1. 内存区域",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "1 运行时数据区",
@@ -1001,6 +1062,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-8fc6cd00a16dd2c0.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-8fc6cd00a16dd2c0/",
       "title": "2. GC",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "引用",
@@ -1045,6 +1107,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-49c52f8a8502e512.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-49c52f8a8502e512/",
       "title": "3. 类文件结构",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -1052,6 +1115,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-7c32249aea3b528f.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/n-7c32249aea3b528f/",
       "title": "4. 类加载机制",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "1. 加载",
@@ -1088,6 +1152,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-d2c95b4e28471452.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-d2c95b4e28471452/",
       "title": "修饰符",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "访问控制修饰符",
@@ -1108,6 +1173,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-576a9c53c158f1d7.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-576a9c53c158f1d7/",
       "title": "反射",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -1115,6 +1181,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-c67f8711c1ba54c9.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-c67f8711c1ba54c9/",
       "title": "变量",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -1122,6 +1189,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-3e7b86087cbd03b5.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-3e7b86087cbd03b5/",
       "title": "常用类",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "Object",
@@ -1150,6 +1218,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/n-8ea80fba19e082c5.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/n-8ea80fba19e082c5/",
       "title": "0. 并发理论",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "Java内存模型（JMM）",
@@ -1182,6 +1251,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/n-c51474a2742c5669.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/n-c51474a2742c5669/",
       "title": "Untitled",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -1189,6 +1259,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-fcf5ed6ca338c484.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-fcf5ed6ca338c484/",
       "title": "序列化",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "JDK序列化",
@@ -1229,6 +1300,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-0976918b5fd3dbd6.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-0976918b5fd3dbd6/",
       "title": "异常处理",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "分类",
@@ -1253,6 +1325,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-abbe231bdc6a5287.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-abbe231bdc6a5287/",
       "title": "数据类型包装类",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "String",
@@ -1269,6 +1342,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-5aadcc58390009c3.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-5aadcc58390009c3/",
       "title": "枚举",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -1276,6 +1350,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-bc027c9a3b209e3c.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-bc027c9a3b209e3c/",
       "title": "泛型",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "类型擦除",
@@ -1292,6 +1367,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-96a17f69c82a3aa7.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-96a17f69c82a3aa7/",
       "title": "注解",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": []
     },
     {
@@ -1299,6 +1375,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-08135360f4ea17bd.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-08135360f4ea17bd/",
       "title": "问答",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "接口和抽象类的区别",
@@ -1323,6 +1400,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-8a9106ccafb56955.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-8a9106ccafb56955/",
       "title": "0. 集合",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": []
     },
     {
@@ -1330,6 +1408,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-214f51a0dc937608.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-214f51a0dc937608/",
       "title": "1. Map",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "HashMap",
@@ -1354,6 +1433,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-9c9f5572bc23f05b.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-9c9f5572bc23f05b/",
       "title": "2. List",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "ArrayList",
@@ -1374,6 +1454,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-e936e3a158e6f043.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-e936e3a158e6f043/",
       "title": "3. Set",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "HashSet 类",
@@ -1398,6 +1479,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-1ae479d4b571edf9.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/n-1ae479d4b571edf9/",
       "title": "4. Queue",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "ArrayDeque",
@@ -1418,6 +1500,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-906a79c35d4b0cfb.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-906a79c35d4b0cfb/",
       "title": "面向对象",
+      "featureimage": "img/note-covers/programming-b.webp",
       "headings": [
         {
           "label": "封装",
@@ -1478,6 +1561,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-be6be01a70506ea0/n-ddfbb020e0cbb1c4.md",
       "url": "/docs/notes/d-205f3859abe469be/d-be6be01a70506ea0/n-ddfbb020e0cbb1c4/",
       "title": "硬件",
+      "featureimage": "img/note-covers/systems.webp",
       "headings": [
         {
           "label": "Cache",
@@ -1490,6 +1574,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-e303a4ad6f96797b/n-976be63085041031.md",
       "url": "/docs/notes/d-205f3859abe469be/d-e303a4ad6f96797b/n-976be63085041031/",
       "title": "高并发限流",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "高并发限流解决方案",
@@ -1654,6 +1739,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-463e29b570f6849f.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-463e29b570f6849f/",
       "title": "1 MySQL 执行流程",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "第一步：连接器",
@@ -1686,6 +1772,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-bd7a7f2f25f37011.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-bd7a7f2f25f37011/",
       "title": "2 InnoDB 引擎",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "逻辑存储结构",
@@ -1730,6 +1817,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-727ad98bb874c526.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-727ad98bb874c526/",
       "title": "3 索引",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "结构",
@@ -1774,6 +1862,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-f1e955d59d87acea.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-f1e955d59d87acea/",
       "title": "4 事务",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "事务四大特性 ACID",
@@ -1786,6 +1875,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-6bde637b36da2ecc.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-6bde637b36da2ecc/",
       "title": "5 锁",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "全局锁",
@@ -1806,6 +1896,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-9006a937bdb5f099.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-9006a937bdb5f099/",
       "title": "6 日志",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "RedoLog: 持久性",
@@ -1826,6 +1917,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-2903218579256756.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-2903218579256756/",
       "title": "7 事务隔离级别 MVCC",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "并发存在的问题",
@@ -1858,6 +1950,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-b084a12188175095.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-b084a12188175095/",
       "title": "01 Redis",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "内存淘汰策略",
@@ -1870,6 +1963,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-f666c9abd8048756.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-f666c9abd8048756/",
       "title": "02 数据类型",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "String",
@@ -1994,6 +2088,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-0504e66dcc10cdbd.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-0504e66dcc10cdbd/",
       "title": "03 持久化",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "1. RDB 快照",
@@ -2014,6 +2109,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-5932b83835e87469.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-5932b83835e87469/",
       "title": "04 主从集群",
+      "featureimage": "img/note-covers/data-a.webp",
       "headings": [
         {
           "label": "主从同步",
@@ -2046,6 +2142,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-ee80873a09a494cc.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-ee80873a09a494cc/",
       "title": "05 分片集群",
+      "featureimage": "img/note-covers/data-a.webp",
       "headings": [
         {
           "label": "散列插槽",
@@ -2074,6 +2171,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-d204b563d5f14db9.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-d204b563d5f14db9/",
       "title": "06 多级缓存",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "本地-NGINX-Redis-TomCat-SQL",
@@ -2106,6 +2204,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-5506ab4555e98ff9.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-5506ab4555e98ff9/",
       "title": "07 场景题",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "分布式锁",
@@ -2130,6 +2229,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-b49f2410fd9c713d.md",
       "url": "/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-b49f2410fd9c713d/",
       "title": "实践",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "不丢失",
@@ -2150,6 +2250,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-990f91d0e5da416c.md",
       "url": "/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-990f91d0e5da416c/",
       "title": "应用场景",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "1. 解耦：",
@@ -2174,6 +2275,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-f1d1d318ae7cef96.md",
       "url": "/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/n-f1d1d318ae7cef96/",
       "title": "架构",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -2181,6 +2283,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/n-b4cc6880f2f1a9c4.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/n-b4cc6880f2f1a9c4/",
       "title": "Linux收发数据包",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "接收",
@@ -2205,6 +2308,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-3fa3994ef49dbee0.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-3fa3994ef49dbee0/",
       "title": "ICMP",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": []
     },
     {
@@ -2212,6 +2316,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-bdd083691693ef88.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-bdd083691693ef88/",
       "title": "TCP 机制",
+      "featureimage": "img/note-covers/network-b.webp",
       "headings": [
         {
           "label": "重传机制",
@@ -2252,6 +2357,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-0de08a1cc00a6475.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/n-0de08a1cc00a6475/",
       "title": "TCP",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "三次握手",
@@ -2268,6 +2374,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-cc90404ae036ec32.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-cc90404ae036ec32/",
       "title": "0 应用层idnex",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "HTTP/1.1",
@@ -2296,6 +2403,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-a649838b9c059d27.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-a649838b9c059d27/",
       "title": "1 HTTP",
+      "featureimage": "img/note-covers/network-b.webp",
       "headings": [
         {
           "label": "HTTP/1.1优化",
@@ -2332,6 +2440,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-91942f3c660dd239.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-91942f3c660dd239/",
       "title": "2 HTTPS",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "HTTPS RSA",
@@ -2364,6 +2473,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-a2775aabb9038e8f.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-a2775aabb9038e8f/",
       "title": "3 HTTP2",
+      "featureimage": "img/note-covers/network-b.webp",
       "headings": []
     },
     {
@@ -2371,6 +2481,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-dc5221a87dcf232f.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-dc5221a87dcf232f/",
       "title": "4 HTTP3",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": []
     },
     {
@@ -2378,6 +2489,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-70293226995e1294.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-70293226995e1294/",
       "title": "5 RPC",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": []
     },
     {
@@ -2385,6 +2497,7 @@
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-c096d75c49e81e14.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/n-c096d75c49e81e14/",
       "title": "6 WebSocket",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "HTTP轮询",
@@ -2405,6 +2518,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-37e395229cd6ac88.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-37e395229cd6ac88/",
       "title": "Go",
+      "featureimage": "img/note-covers/programming-a.webp",
       "headings": [
         {
           "label": "基础",
@@ -2773,6 +2887,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-66fce1621d2f77ea.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-66fce1621d2f77ea/",
       "title": "Kafka",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "1.应用场景",
@@ -3053,6 +3168,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-55198287dba44f6a.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-55198287dba44f6a/",
       "title": "Mysql",
+      "featureimage": "img/note-covers/data-b.webp",
       "headings": [
         {
           "label": "SQL语法",
@@ -3561,6 +3677,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-0986afecafe535ac.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-0986afecafe535ac/",
       "title": "Redis",
+      "featureimage": "img/note-covers/data-a.webp",
       "headings": [
         {
           "label": "认识Redis",
@@ -4061,6 +4178,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-309c0e6f80928520.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-309c0e6f80928520/",
       "title": "Untitled",
+      "featureimage": "img/note-covers/knowledge.webp",
       "headings": []
     },
     {
@@ -4068,6 +4186,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-3a465e0108e8226c.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-3a465e0108e8226c/",
       "title": "数据结构",
+      "featureimage": "img/note-covers/algorithms-b.webp",
       "headings": []
     },
     {
@@ -4075,6 +4194,7 @@
       "output": "content/docs/notes/d-d69eb5fbdf57b275/n-ab6e9a9cf0e56720.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/n-ab6e9a9cf0e56720/",
       "title": "计算机网络",
+      "featureimage": "img/note-covers/network-a.webp",
       "headings": [
         {
           "label": "网络传输场景面试题（重点）",
@@ -4547,6 +4667,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-eb29ee20679ea5ff.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-eb29ee20679ea5ff/",
       "title": "中转站-数据库",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -4554,6 +4675,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-6e5b6671d3525ce3.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-6e5b6671d3525ce3/",
       "title": "优先级",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "为什么需要支持优先级",
@@ -4570,6 +4692,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-b25f8d65bd2d44bb.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-b25f8d65bd2d44bb/",
       "title": "定时推送",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "Redis选型设计",
@@ -4582,6 +4705,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-6925429b0eac12ff.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-6925429b0eac12ff/",
       "title": "数据库",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -4589,6 +4713,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-0a618ad08fb2cb61.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-0a618ad08fb2cb61/",
       "title": "消息模板",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -4596,6 +4721,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-ca5ebd88c91eca69.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-ca5ebd88c91eca69/",
       "title": "消息队列",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "为什么要使用消息队列",
@@ -4628,6 +4754,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-019acef2a1e1bbc7.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-019acef2a1e1bbc7/",
       "title": "重试",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": []
     },
     {
@@ -4635,6 +4762,7 @@
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-40c960f34fa9298c.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-40c960f34fa9298c/",
       "title": "额度限制",
+      "featureimage": "img/note-covers/backend.webp",
       "headings": [
         {
           "label": "用Redis实现限额器",
@@ -4648,187 +4776,218 @@
       "source": "",
       "output": "content/docs/notes/_index.md",
       "url": "/docs/notes/",
-      "title": "笔记"
+      "title": "笔记",
+      "featureimage": "img/note-covers/knowledge.webp"
     },
     {
       "source": "LeetCode",
       "output": "content/docs/notes/d-e3f7616b19908d30/_index.md",
       "url": "/docs/notes/d-e3f7616b19908d30/",
-      "title": "LeetCode"
+      "title": "LeetCode",
+      "featureimage": "img/note-covers/algorithms-b.webp"
     },
     {
       "source": "Linux",
       "output": "content/docs/notes/d-4828e60247c1636f/_index.md",
       "url": "/docs/notes/d-4828e60247c1636f/",
-      "title": "Linux"
+      "title": "Linux",
+      "featureimage": "img/note-covers/systems.webp"
     },
     {
       "source": "实习",
       "output": "content/docs/notes/d-d64ff9df5332ca3a/_index.md",
       "url": "/docs/notes/d-d64ff9df5332ca3a/",
-      "title": "实习"
+      "title": "实习",
+      "featureimage": "img/note-covers/backend.webp"
     },
     {
       "source": "论文",
       "output": "content/docs/notes/d-916a0b17530c915b/_index.md",
       "url": "/docs/notes/d-916a0b17530c915b/",
-      "title": "论文"
+      "title": "论文",
+      "featureimage": "img/note-covers/research.webp"
     },
     {
       "source": "面试",
       "output": "content/docs/notes/d-205f3859abe469be/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/",
-      "title": "面试"
+      "title": "面试",
+      "featureimage": "img/note-covers/knowledge.webp"
     },
     {
       "source": "面试/AI",
       "output": "content/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/",
-      "title": "AI"
+      "title": "AI",
+      "featureimage": "img/note-covers/research.webp"
     },
     {
       "source": "面试/AI/Agent",
       "output": "content/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-43b2d4c787235591/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-43b2d4c787235591/",
-      "title": "Agent"
+      "title": "Agent",
+      "featureimage": "img/note-covers/research.webp"
     },
     {
       "source": "面试/AI/PyTorch",
       "output": "content/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-082c52ecdd817ef3/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-6ba5343ec27e2298/d-082c52ecdd817ef3/",
-      "title": "PyTorch"
+      "title": "PyTorch",
+      "featureimage": "img/note-covers/research.webp"
     },
     {
       "source": "面试/docker",
       "output": "content/docs/notes/d-205f3859abe469be/d-0c68cd0378be49e1/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-0c68cd0378be49e1/",
-      "title": "docker"
+      "title": "docker",
+      "featureimage": "img/note-covers/systems.webp"
     },
     {
       "source": "面试/golang",
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/",
-      "title": "golang"
+      "title": "golang",
+      "featureimage": "img/note-covers/programming-b.webp"
     },
     {
       "source": "面试/golang/Goroutine",
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-9a104ee4130d428d/",
-      "title": "Goroutine"
+      "title": "Goroutine",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/golang/原理",
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/",
-      "title": "原理"
+      "title": "原理",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/golang/原理/attachments",
       "output": "content/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/d-450951ee8f6c9184/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-f7ccae636d10bb41/d-68099c72ea2c86f8/d-450951ee8f6c9184/",
-      "title": "attachments"
+      "title": "attachments",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/Java",
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/",
-      "title": "Java"
+      "title": "Java",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/Java/JVM",
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-64f7ab1c4a97853c/",
-      "title": "JVM"
+      "title": "JVM",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/Java/并发",
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-ecfe3cbca6d79fb2/",
-      "title": "并发"
+      "title": "并发",
+      "featureimage": "img/note-covers/programming-a.webp"
     },
     {
       "source": "面试/Java/集合",
       "output": "content/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/d-c162d2e18ee5ca86/",
-      "title": "集合"
+      "title": "集合",
+      "featureimage": "img/note-covers/programming-b.webp"
     },
     {
       "source": "面试/OS",
       "output": "content/docs/notes/d-205f3859abe469be/d-be6be01a70506ea0/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-be6be01a70506ea0/",
-      "title": "OS"
+      "title": "OS",
+      "featureimage": "img/note-covers/systems.webp"
     },
     {
       "source": "面试/场景题",
       "output": "content/docs/notes/d-205f3859abe469be/d-e303a4ad6f96797b/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-e303a4ad6f96797b/",
-      "title": "场景题"
+      "title": "场景题",
+      "featureimage": "img/note-covers/backend.webp"
     },
     {
       "source": "面试/数据库",
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/",
-      "title": "数据库"
+      "title": "数据库",
+      "featureimage": "img/note-covers/data-b.webp"
     },
     {
       "source": "面试/数据库/MySQL",
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/",
-      "title": "MySQL"
+      "title": "MySQL",
+      "featureimage": "img/note-covers/data-a.webp"
     },
     {
       "source": "面试/数据库/Redis",
       "output": "content/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/",
-      "title": "Redis"
+      "title": "Redis",
+      "featureimage": "img/note-covers/data-b.webp"
     },
     {
       "source": "面试/消息队列",
       "output": "content/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-ea456e7df09fd4f7/",
-      "title": "消息队列"
+      "title": "消息队列",
+      "featureimage": "img/note-covers/backend.webp"
     },
     {
       "source": "面试/网络",
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/",
-      "title": "网络"
+      "title": "网络",
+      "featureimage": "img/note-covers/network-a.webp"
     },
     {
       "source": "面试/网络/传输层",
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/",
-      "title": "传输层"
+      "title": "传输层",
+      "featureimage": "img/note-covers/network-b.webp"
     },
     {
       "source": "面试/网络/传输层/TCP",
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-2fdc6c0f227a3020/d-d4c33ab96f18c337/",
-      "title": "TCP"
+      "title": "TCP",
+      "featureimage": "img/note-covers/network-b.webp"
     },
     {
       "source": "面试/网络/应用层",
       "output": "content/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/_index.md",
       "url": "/docs/notes/d-205f3859abe469be/d-714a093a918862cb/d-397002d1292f9ba2/",
-      "title": "应用层"
+      "title": "应用层",
+      "featureimage": "img/note-covers/network-b.webp"
     },
     {
       "source": "面试题",
       "output": "content/docs/notes/d-d69eb5fbdf57b275/_index.md",
       "url": "/docs/notes/d-d69eb5fbdf57b275/",
-      "title": "面试题"
+      "title": "面试题",
+      "featureimage": "img/note-covers/knowledge.webp"
     },
     {
       "source": "项目",
       "output": "content/docs/notes/d-79f326be4409d51f/_index.md",
       "url": "/docs/notes/d-79f326be4409d51f/",
-      "title": "项目"
+      "title": "项目",
+      "featureimage": "img/note-covers/backend.webp"
     },
     {
       "source": "项目/后端项目",
       "output": "content/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/_index.md",
       "url": "/docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/",
-      "title": "后端项目"
+      "title": "后端项目",
+      "featureimage": "img/note-covers/backend.webp"
     }
   ],
   "attachments": [

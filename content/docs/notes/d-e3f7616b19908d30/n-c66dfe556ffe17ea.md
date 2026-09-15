@@ -2,9 +2,13 @@
 title: 3-1 快排
 url: /docs/notes/d-e3f7616b19908d30/n-c66dfe556ffe17ea/
 draft: false
+featureimage: img/note-covers/algorithms-b.webp
+images:
+  - img/note-covers/algorithms-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

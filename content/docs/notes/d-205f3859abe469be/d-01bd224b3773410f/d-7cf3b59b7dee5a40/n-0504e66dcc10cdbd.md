@@ -2,9 +2,13 @@
 title: 03 持久化
 url: /docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-7cf3b59b7dee5a40/n-0504e66dcc10cdbd/
 draft: false
+featureimage: img/note-covers/data-b.webp
+images:
+  - img/note-covers/data-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

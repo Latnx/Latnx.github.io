@@ -2,9 +2,13 @@
 title: 数据类型包装类
 url: /docs/notes/d-205f3859abe469be/d-abfc9c2201b07353/n-abbe231bdc6a5287/
 draft: false
+featureimage: img/note-covers/programming-b.webp
+images:
+  - img/note-covers/programming-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

@@ -2,9 +2,13 @@
 title: 4 事务
 url: /docs/notes/d-205f3859abe469be/d-01bd224b3773410f/d-6bdd8a9456cf7add/n-f1e955d59d87acea/
 draft: false
+featureimage: img/note-covers/data-b.webp
+images:
+  - img/note-covers/data-b.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true

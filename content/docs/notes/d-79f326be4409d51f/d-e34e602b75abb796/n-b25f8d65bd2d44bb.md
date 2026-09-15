@@ -2,9 +2,13 @@
 title: 定时推送
 url: /docs/notes/d-79f326be4409d51f/d-e34e602b75abb796/n-b25f8d65bd2d44bb/
 draft: false
+featureimage: img/note-covers/backend.webp
+images:
+  - img/note-covers/backend.webp
 showDate: false
 showDateUpdated: false
 showAuthor: false
+showHero: true
 showReadingTime: false
 showWordCount: false
 showTableOfContents: true
